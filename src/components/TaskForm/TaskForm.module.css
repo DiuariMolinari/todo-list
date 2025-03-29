@@ -1,0 +1,53 @@
+.taskForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: -2rem;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  width: 736px;
+  height: 54px;
+  gap: 8px
+}
+
+.taskInput {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    color: var(--gray-100);
+    background-color: var(--gray-400);
+    border: 1px solid var(--gray-700);
+    border-radius: 1em;
+
+    &:focus-visible {
+      border: 1px solid var(--purple-light);
+      outline: none;
+    }
+}
+
+.submitButton {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 0.25em;
+    color: var(--gray-100);
+    border: none;
+    border-radius: 8px;
+    background-color: var(--blue-dark);
+    transition: background-color 0.15s;
+    height: 52px;
+    width: 90px;
+    padding: 16px;
+  
+    &:focus-visible,
+    &:hover {
+        background-color: var(--blue-light);
+    }
+
+    svg {
+      font-size: 150%;
+    }
+  }

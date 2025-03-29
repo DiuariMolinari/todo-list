@@ -1,0 +1,53 @@
+.taskList {
+    width: 736px;
+    height: 72px;
+    margin: 2rem 0 0 0;
+}
+
+.taskListHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalTasksSpan {
+    margin-right: 10px;
+    color: var(--blue-light);
+}
+
+.totalOfSpan{
+    color: var(--purple-light)
+}
+
+.badge {
+    background-color: var(--gray-400);
+    border-radius: 999px;
+    padding: 2px 8px 2px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    font: "inter", sans-serif;
+}
+
+.emptyTaskList{
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+    margin-top: 2rem;
+    padding-top: 4rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    color: var(--gray-300);
+    font-size: 1.5rem;
+}
+
+.emptyTaskListText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
